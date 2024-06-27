@@ -19,6 +19,3 @@ RUN echo "${CRON_TIMING} sh /updater/qbitportupdater.sh" >> /etc/crontabs/root
 
 # Run Crond
 ENTRYPOINT ["crond", "-f"]
-
-#Testing
-#CMD ["sh", "/updater/qbitportupdater.sh"]
