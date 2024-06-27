@@ -1,6 +1,6 @@
 services:
-  portupdater:
-    container_name: portupdater
+  qbit_updater:
+    container_name: qbit_updater
     build: .
     environment:
       GLUETUN_API_URL: ${GLUETUN_API_URL}
